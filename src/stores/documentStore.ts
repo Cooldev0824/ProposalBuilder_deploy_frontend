@@ -4,7 +4,7 @@ import { Document } from "../types/document";
 import axios from "axios";
 
 // API base URL - change this to match your server
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://proposalbuilder-deploy-backend.onrender.com/api";
 
 export const useDocumentStore = defineStore("documents", () => {
   const documents = ref<Document[]>([]);

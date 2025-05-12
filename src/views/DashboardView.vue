@@ -281,7 +281,7 @@ function getDocumentThumbnail(doc: any): string {
         if (imageElement && imageElement.content) {
           // If the image path is from our server, prepend the API URL
           if (imageElement.content.startsWith("/images/")) {
-            return `http://localhost:3000${imageElement.content}`;
+            return `https://proposalbuilder-deploy-backend.onrender.com${imageElement.content}`;
           }
           return imageElement.content;
         }

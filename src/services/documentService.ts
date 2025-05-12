@@ -2,7 +2,7 @@ import axios from "axios";
 import type { Document } from "../types/document";
 
 // API base URL - change this to match your server
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://proposalbuilder-deploy-backend.onrender.com/api";
 
 /**
  * Document Service
